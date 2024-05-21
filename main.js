@@ -16,4 +16,7 @@ console.log({
 
 h1.innerHTML='Hola Munso JavaSript <hr> <br> 2024'
 
-h1.innerText='Hola Munso JavaSript <hr> <br> 2024'
+//h1.innerText='Hola Munso JavaSript <hr> <br> 2024'
+
+console.log("Muestra la clase: " + h1.getAttribute('class'));
+h1.setAttribute('class', 'rojo');
