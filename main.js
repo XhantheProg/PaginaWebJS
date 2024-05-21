@@ -13,3 +13,7 @@ console.log({
     pid,
     input
 });
+
+h1.innerHTML='Hola Munso JavaSript <hr> <br> 2024'
+
+h1.innerText='Hola Munso JavaSript <hr> <br> 2024'
