@@ -22,6 +22,14 @@ h1.innerHTML='Hola Munso JavaSript <hr> <br> 2024'
 //h1.setAttribute('class', 'rojo');
 
 
-h1.classList.add('blue')
-h1.classList.remove('blue')
-h1.classList.add('verde')
+// h1.classList.add('blue')
+// h1.classList.remove('blue')
+// h1.classList.add('verde')
+
+input.value="123456789";
+const img =document.createElement('img');
+img.setAttribute('scr','https://pic1.mangapicgallery.com/r/album/83/md_/2687538_21423817.jpg');
+console.log(img);
+
+pid.innerHTML=' '
+pid.appendChild(img)
